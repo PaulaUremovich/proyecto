@@ -1,0 +1,25 @@
+Contenedores semanticos
+<header>
+<main>
+<footer> (se le agrega informacion del pie de pagina del sitio)
+<nav>
+<section> (seccion de contenido, puede estar copuesto por varios div) (conjunto de informacion)
+<article>
+<aside>
+Elemento tabla
+(elemento contenedor: <table> </table>)
+Para las filas: tr
+Para las celdas o columnas: td o th
+<Table border=1>
+<tr>
+<th> Columna o celda 1 </th>
+<th> Columna o celda 2</th>
+<th> Columna o celda 3</th>
+</tr>
+<tr>
+<td> Dato columna 1 </td>
+<td> Dato columna 2 </td>
+<td> Dato columna 3 </td>
+</Table>
+
+Todas las tablas tienen tablas, que son las columnas importantes de lo que va a visualizar el usuario en la tabla (columnas de encabezado)
