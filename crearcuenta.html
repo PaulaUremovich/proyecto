@@ -6,89 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear cuenta - Llegar a ser</title>
-
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
-    <header>
-        <p>✈️ Envíos gratis en compras superiores a $10000.- ✈️</p>
-        <img src="imagenes/logo.png" alt="Logo" widht="150px" height="150px">
-        <nav>
-            <a href="crearcuenta.html">CREAR CUENTA</a> <a href="">INICIAR SESIÓN</a>
-        </nav>
-        <nav>
-            <a href="index.html">INICIO</a>
-            <a href="paginadeco.html">DECO</a>
-            <a href="preguntasfrecuentes.html"> PREGUNTAS FRECUENTES</a>
-        </nav>
+    <header class="header">
+        <p class="barra-superior">✈️ Envíos gratis en compras superiores a $12000.- ✈️</p>
+        <div>
+            <div class="headerdiv">
+                <img class="logo" src="imagenes/logo.png" class="logo-superior" alt="Logo">
+                <nav>
+                    <ul class="enlaces">
+                        <a class="nav2" href="crearcuenta.html">CREAR CUENTA</a>
+                        <a class="nav2" href="">INICIAR SESIÓN</a>
+                    </ul>
+                </nav>
+            </div>
+            <nav>
+                <ul class="enlaces2">
+                    <li class="nav1"><a href="index.html">Inicio</a></li>
+                    <li class="nav1"><a href="paginadeco.html">Deco</a></li>
+                    <li class="nav1"><a href="preguntasfrecuentes.html"> Preguntas Frecuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
-    <main>
-        <section>
+    <main class="main4">
+        <section class="parrafopf">
             <p>Comprá más rápido y llevá el control de tus pedidos, ¡en un solo lugar!</p>
         </section>
 
-        <form action="">
-            <div>
+        <section class="form1">
+            <form action="">
+                <div class="form">
 
-                <label for="nombre">NOMBRE:</label>
-                <input type="text" id="nombre" placeholder="ej.: María Perez" name="nombre">
+                    <label for="nombre">NOMBRE:</label>
+                    <input class="form2" type="text" id="nombre" placeholder="ej.: María Perez" name="nombre">
+                </div>
+
+                <div class="form">
+                    <label for="email">EMAIL:</label>
+                    <input class="form2" type="email" id="email" placeholder="ej.: tunombre@email.com" name="email">
+                </div>
+
+                <div class="form">
+                    <label for="telefono">TELEFONO (OPCIONAL):</label>
+                    <input class="form2" type="email" id="telefono" placeholder="ej.: 1123445567" name="telefono">
+                </div>
+            </form>
+
+            <div>
+                <a class="form3" href="">CREAR CUENTA</a>
             </div>
 
             <div>
-                <label for="email">EMAIL:</label>
-                <input type="email" id="email" placeholder="ej.: tunombre@email.com" name="email">
+                <p>¿Ya tienes una cuenta?</p><a href="Iniciar sesión">Iniciá sesión
             </div>
-
-            <div>
-                <label for="telefono">TELEFONO (OPCIONAL):</label>
-                <input type="email" id="telefono" placeholder="ej.: 1123445567" name="telefono">
-            </div>
-        </form>
-
-        <div>
-            <button>CREAR CUENTA</button>
-        </div>
-
-        <div>
-            <p>¿Ya tienes una cuenta?</p><a href="Iniciar sesión">Iniciá sesión
-        </div>
+        </section>
     </main>
 
-    <footer>
-        <p>NAVEGACION</p>
+    <footer class="dis-footer">
+        <div class="generaldiv">
+            <p class="titulofooter">NAVEGACION</p>
+            <ul class="enlaces-footer">
 
-        <ul type=square>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="paginadeco.html">Deco</a></li>
-            <li><a href="preguntasfrecuentes.html"> Preguntas Frecuentes</a></li>
-        </ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paginadeco.html">Deco</a></li>
+                <li><a href="preguntasfrecuentes.html"> Preguntas Frecuentes</a></li>
+            </ul>
+        </div>
+        <div class="generaldiv">
+            <p class="titulofooter">FORMAS DE PAGO</p>
+            <ul class="flextarjeta">
 
-        <p>FORMAS DE PAGO</p>
-        <img src="imagenes/formasdepago/visa@2x.png" alt="Visa" width="50px">
-        <img src="imagenes/formasdepago/mastercard@2x.png" alt="Mastercard" width="50px">
-        <img src="imagenes/formasdepago/amex@2x.png" alt="American Express" width="50px">
-        <img src="imagenes/formasdepago/diners@2x.png" alt="Diners" width="50px">
-        <img src="imagenes/formasdepago/cabal@2x.png" alt="Cabal" width="50px">
-        <img src="imagenes/formasdepago/tarjeta-naranja@2x.png" alt="Tarjeta Naranja" width="50px">
-        <img src="imagenes/formasdepago/tarjeta-shopping@2x.png" alt="Tarjeta Shopping" width="50px">
-        <img src="imagenes/formasdepago/mercadopago@2x.png" alt="MercadoPago" width="50px">
-        <img src="imagenes/formasdepago/argencard@2x.png" alt="Argencard" width="50px">
-        <img src="imagenes/formasdepago/pagofacil@2x.png" alt="Pago Facil" width="50px">
-        <img src="imagenes/formasdepago/rapipago@2x.png" alt="Rapipago" width="50px">
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/visa@2x.png" alt="Visa"></li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/mastercard@2x.png" alt="Mastercard"></li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/amex@2x.png" alt="American Express"></li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/diners@2x.png" alt="Diners"></li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/cabal@2x.png" alt="Cabal"></li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/tarjeta-naranja@2x.png" alt="Tarjeta Naranja">
+                </li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/tarjeta-shopping@2x.png"
+                        alt="Tarjeta Shopping">
+                </li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/mercadopago@2x.png" alt="MercadoPago"></li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/argencard@2x.png" alt="Argencard"></li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/pagofacil@2x.png" alt="Pago Facil"></li>
+                <li><img class="fotos-tarjeta" src="imagenes/formasdepago/rapipago@2x.png" alt="Rapipago"></li>
+            </ul>
+        </div>
 
-
-        <p>CONTACTANOS</p>
-        📞2233422699
-        <a href="mailto:llegarasermdp@gmail.com" Tittle="Correo">llegarasermdp@gmail.com</a>
-        Alvear 2840, timbre A
-
-        <p>REDES SOCIALES</p>
-        <a href="https://www.instagram.com/llegaraser/" target="_blank">INSTAGRAM</a>
-        <a href="https://www.facebook.com/llegaraser.com.ar" target="_blank">FACEBOOK</a>
-        <a href="https://ar.pinterest.com/llegaraser/_created/" target="_blank">PINTEREST</a>
-
-        <img src="imagenes/logo footer.png" alt="Logo">
-
+        <div class="generaldiv">
+            <p class="titulofooter">CONTACTANOS</p>
+            📞2233422699
+            <a href="mailto:llegarasermdp@gmail.com" Tittle="Correo">llegarasermdp@gmail.com</a>
+            Alvear 2840, timbre A
+        </div>
+        <div class="generaldiv">
+            <p class="titulofooter">REDES SOCIALES</p>
+            <a href="https://www.instagram.com/llegaraser/" target="_blank">INSTAGRAM</a>
+            <a href="https://www.facebook.com/llegaraser.com.ar" target="_blank">FACEBOOK</a>
+            <a href="https://ar.pinterest.com/llegaraser/_created/" target="_blank">PINTEREST</a>
+        </div>
+        <div class="logofooter">
+            <img src="imagenes/logo footer.png" alt="Logo">
+        </div>
     </footer>
 </body>
 

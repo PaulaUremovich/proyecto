@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #ffffff;
+    color: #c6a274;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.fotos {
+    height: 250px;
+}
+
+.fots1 {
+    height: 240px;
+    width: 240px;
+}
+
+.logo {
+    width: 300px;
+
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.titulod {
+    font-size: 23px;
+}
+
+.titulod1 {
+    font-size: 18px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    max-height: 200px;
+    background-color: white;
+
+}
+
+.titulopf {
+    font-size: 25px;
+}
+
+.titulopf1 {
+    font-size: 21px;
+}
+
+.parrafopf {
+    font-size: 13px;
+    line-height: 3rem;
+}
+
+.titulopf3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.main3 {
+    display: flex;
+    padding-top: 15rem;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin-left: 8rem;
+}
+
+.main4 {
+    padding-top: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form2 {
+    padding-top: 1rem;
+    padding-left: 12rem;
+    padding-bottom: 1rem;
+    padding-right: 12rem;
+    border: 1px solid #f6f1ea;
+    text-align: start;
+}
+
+.form3 {
+    padding-top: 1rem;
+    padding-left: 12rem;
+    padding-bottom: 1rem;
+    padding-right: 12rem;
+    background-color: #c6a274;
+    color: #f9f5f0;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fotos1 {
+    width: 530px;
+    height: 530px;
+}
+
+.fotos2 {
+    width: 600px;
+    height: 600px;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 18rem;
+}
+
+.headerdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.enlaces2 {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav1 {
+    margin: 1rem;
+}
+
+.nav2 {
+    margin: 6px
+}
+
+.main1 {
+    padding-top: 11rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 500px;
+    margin-right: 1rem;
+
+}
+
+.barra-superior {
+    background-color: #c6a274;
+    color: #f9f5f0;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.seccion1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    min-height: 500px;
+
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.seccion11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 100%;
+
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+div.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-ropa {
+    width: 20%;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.div-ropa1 {
+    width: 20%;
+    margin-right: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.divcreciendo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-creciendo {
+    color: #c6a274;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+}
+
+.titulo-creciendo {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cuotas {
+    font-size: 16px;
+    text-align: center;
+    margin: 9px;
+    border: 1px solid #f6f1ea;
+}
+
+.precio {
+    font-size: 15px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.precio1 {
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+
+.detalle {
+    font-size: 12px;
+    text-align: center;
+}
+
+.detalle1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #c6a274;
+    color: #f9f5f0;
+    font-size: 11px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+
+}
+
+.boton1 {
+    display: inline-block;
+    background-color: #c6a274;
+    color: #f9f5f0;
+    font-size: 11px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.boton-todo {
+    display: inline-block;
+    background-color: #c6a274;
+    color: #f9f5f0;
+    font-size: 11px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.fcompleta {
+    width: 500%
+}
+
+.section2 {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    gap: 7rem;
+
+}
+
+.titulo-quienessomos {
+    font-size: 2rem;
+    text-align: start;
+}
+
+.parrafo-1 {
+    text-align: start;
+    font-size: 18px;
+    max-height: 100px;
+
+}
+
+.main2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15rem;
+}
+
+.dis-footer {
+    margin-top: 4rem;
+    background-color: #c6a274;
+    color: #f9f5f0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+    padding-top: 2rem;
+}
+
+.enlaces-footer {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.titulofooter {
+    font-weight: 700;
+}
+
+.fotos-tarjeta {
+    width: 50px;
+}
+
+.flextarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    min-height: 100px;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5px;
+
+}
+
+.generaldiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.logofooter {
+    width: 70px;
+}
