@@ -720,7 +720,7 @@ div.texto {
     .main2 {
         padding-top: 10rem;
     }
-
+.fotos2{width: 320px; height: 320px;}
 }
 
 @media (max-widht: 1023px) {
