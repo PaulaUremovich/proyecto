@@ -67,8 +67,11 @@ a {
     font-size: 25px;
     ;
 }
-.titulopreguntas{
-    text-align: center; padding-top: 1rem;}
+
+.titulopreguntas {
+    text-align: center;
+    padding-top: 1rem;
+}
 
 .titulopf1 {
     font-size: 21px;
@@ -96,10 +99,12 @@ a {
 .main4 {
     padding-top: 2rem;
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+    ;
     min-height: 100vh;
     padding-left: 4rem;
 }
+
 .main5 {
     padding-top: 17rem;
     display: flex;
@@ -107,6 +112,7 @@ a {
     min-height: 100vh;
     padding-left: 4rem;
 }
+
 .form {
     display: flex;
     flex-direction: column;
@@ -145,8 +151,8 @@ a {
 }
 
 .fotos2 {
-   gap:2 rem;
-   padding-top: 5px;
+    gap: 2 rem;
+    padding-top: 5px;
     width: 600px;
     height: 600px;
 }
@@ -432,7 +438,10 @@ div.texto {
     letter-spacing: 2px;
     font-family: sans-serif;
 }
-.carousel-inner{padding-top:3rem; }
+
+.carousel-inner {
+    padding-top: 3rem;
+}
 
 
 @media (max-width: 600px) {
@@ -538,12 +547,14 @@ div.texto {
     }
 
 
-.fotos1{width: 320px;
-        height: auto
-        ; justify-content: center;}
+    .fotos1 {
+        width: 320px;
+        height: auto;
+        justify-content: center;
+    }
 
     .fotos2 {
-        
+
         padding-bottom: 1rem;
     }
 
@@ -668,10 +679,46 @@ div.texto {
     .flextarjeta {
         width: 300px;
     }
-    .barra-superior{font-size: 12px;}
-    .titulo-quienessomos{padding-top: 1rem;}
-    .div1{display: none;}
-    .main4{padding-right: 1rem;}
+
+    .barra-superior {
+        font-size: 12px;
+    }
+
+    .titulo-quienessomos {
+        padding-top: 1rem;
+    }
+
+    .div1 {
+        display: none;
+    }
+
+    .main4 {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .nav1 {
+        font-size: 12px;
+    }
+
+    .enlaces {
+        display: none;
+    }
+
+    .header {
+        padding-bottom: 10px;
+    }
+
+    .main3 {
+        padding-left: 0;
+        margin-left: 1rem;
+        padding-top: 12rem;
+    }
+
+    .main2 {
+        padding-top: 10rem;
+    }
+
 }
 
 @media (max-widht: 1023px) {
