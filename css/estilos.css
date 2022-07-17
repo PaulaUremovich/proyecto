@@ -12,6 +12,11 @@ body {
 
 a {
     color: inherit;
+    text-decoration: none;
+}
+
+.main {
+    min-height: 100vh;
 }
 
 .fotos {
@@ -25,7 +30,6 @@ a {
 
 .logo {
     width: 300px;
-
 }
 
 .div {
@@ -37,6 +41,8 @@ a {
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
+    margin-left: 3rem;
+
 }
 
 .titulod {
@@ -50,14 +56,19 @@ a {
 .header {
     position: fixed;
     width: 100%;
-    max-height: 200px;
+    z-index: 1001;
+    max-height: 220px;
     background-color: white;
+    color: #c6a274;
 
 }
 
 .titulopf {
     font-size: 25px;
+    ;
 }
+.titulopreguntas{
+    text-align: center; padding-top: 1rem;}
 
 .titulopf1 {
     font-size: 21px;
@@ -77,18 +88,25 @@ a {
     display: flex;
     padding-top: 15rem;
     flex-direction: column;
-    align-items: center;
     max-width: 1000px;
-    margin-left: 8rem;
+    padding-left: 3rem;
+    min-height: 100vh;
 }
 
 .main4 {
-    padding-top: 18rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;;
+    min-height: 100vh;
+    padding-left: 4rem;
+}
+.main5 {
+    padding-top: 17rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    min-height: 100vh;
+    padding-left: 4rem;
 }
-
 .form {
     display: flex;
     flex-direction: column;
@@ -123,10 +141,12 @@ a {
 
 .fotos1 {
     width: 530px;
-    height: 530px;
+    height: auto;
 }
 
 .fotos2 {
+   gap:2 rem;
+   padding-top: 5px;
     width: 600px;
     height: 600px;
 }
@@ -145,7 +165,6 @@ a {
     justify-content: flex-end;
     align-items: center;
 }
-
 
 .enlaces2 {
     display: flex;
@@ -170,11 +189,11 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-    min-height: 500px;
     margin-right: 1rem;
-
+    min-height: 100vh;
+    color: #c6a274;
 }
 
 .barra-superior {
@@ -191,21 +210,16 @@ a {
     align-items: flex-start;
     max-width: 100%;
     min-height: 500px;
-
     flex-wrap: wrap;
     gap: 1rem;
-
 }
 
 .seccion11 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    max-width: 100%;
-
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-
 }
 
 div.texto {
@@ -220,6 +234,14 @@ div.texto {
 }
 
 .div-ropa1 {
+    width: 20%;
+    margin-right: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-ropa3 {
     width: 20%;
     margin-right: 1rem;
     align-items: center;
@@ -266,7 +288,6 @@ div.texto {
     text-align: center;
 }
 
-
 .detalle {
     font-size: 12px;
     text-align: center;
@@ -275,22 +296,6 @@ div.texto {
 .detalle1 {
     font-size: 15px;
     text-align: center;
-}
-
-.boton {
-    display: inline-block;
-    background-color: #c6a274;
-    color: #f9f5f0;
-    font-size: 11px;
-    text-decoration: none;
-    padding-top: 5px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 5px;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    letter-spacing: 2px;
-
 }
 
 .boton1 {
@@ -332,9 +337,19 @@ div.texto {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
     max-width: 100%;
-    gap: 7rem;
+    gap: 5rem;
+}
 
+.section3 {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    gap: 5rem;
 }
 
 .titulo-quienessomos {
@@ -346,7 +361,6 @@ div.texto {
     text-align: start;
     font-size: 18px;
     max-height: 100px;
-
 }
 
 .main2 {
@@ -372,7 +386,6 @@ div.texto {
     flex-direction: column;
     list-style: none;
     text-decoration: none;
-
 }
 
 .titulofooter {
@@ -393,7 +406,6 @@ div.texto {
     flex-wrap: wrap;
     list-style: none;
     gap: 5px;
-
 }
 
 .generaldiv {
@@ -404,3 +416,267 @@ div.texto {
 .logofooter {
     width: 70px;
 }
+
+.boton {
+    display: inline-block;
+    background-color: #c6a274;
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.carousel-inner{padding-top:3rem; }
+
+
+@media (max-width: 600px) {
+    .seccion11 {
+        flex-wrap: wrap;
+        align-content: space-around;
+        margin: 1rem;
+        gap: 4rem;
+        padding: 0;
+
+    }
+
+    .detalle1 {
+        font-size: 12px;
+        text-align: center;
+        white-space: pre-line;
+        width: 130px;
+    }
+
+    .cuotas {
+        font-size: 13px;
+        text-align: center;
+        margin: 9px;
+        border: 1px solid #f6f1ea;
+        white-space: pre-line;
+        width: 130px;
+
+    }
+
+    .precio {
+        font-size: 10px;
+        font-weight: 1000;
+        text-align: center;
+    }
+
+    .fcompleta {
+        width: 100%;
+    }
+
+    .titulo-quienessomos {
+        align-items: center;
+    }
+
+    .fotos1 {
+        margin-top: 2rem;
+        width: 100%;
+        object-fit: contain;
+        height: auto;
+    }
+
+    .section2 {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 0%;
+        justify-content: center;
+        align-items: center;
+        max-width: max-content;
+    }
+
+    .titulo-quienessomos {
+        text-align: center;
+        white-space: normal;
+        width: 300px;
+
+    }
+
+    .parrafo-1 {
+        text-align: center;
+        box-sizing: content-box;
+        max-width: max-content;
+    }
+
+    .headerdiv {
+        flex-direction: column;
+        justify-content: center;
+        align-items: content;
+    }
+
+    .section3 {
+        flex-direction: column-reverse;
+        gap: 0;
+        margin-top: 0%;
+        justify-content: center;
+        align-items: center;
+        max-width: max-content;
+    }
+
+    .logo {
+        height: 6rem;
+        width: auto;
+    }
+
+
+    .precio1 {
+        font-size: 15px;
+        font-weight: 1000;
+        text-align: center;
+    }
+
+    .detalle {
+        font-size: 10px;
+        text-align: center;
+    }
+
+
+
+
+    .fotos2 {
+        width: 320px;
+        height: max-content;
+        padding-bottom: 1rem;
+    }
+
+    .main1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .fotocompleta {
+        max-width: 100%;
+        margin-bottom: 0%;
+    }
+
+    .headerdiv {
+        width: 100%;
+    }
+
+    .texto-creciendo {
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+    }
+
+    .div-ropa1 {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    .div-ropa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin-bottom: 13rem;
+    }
+
+    .main1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .fots1 {
+        width: 130px;
+        height: 130px;
+        display: inline-block;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .detalle1 {
+        font-size: 13px;
+
+    }
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .dis-footer {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .main3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .parrafopf {
+        font-size: 12px;
+        line-height: 2rem;
+    }
+
+    .boton {
+        display: inline-block;
+        background-color: #c6a274;
+        color: #fff;
+        font-size: 10px;
+        text-decoration: none;
+        padding-top: 5px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        letter-spacing: 2px;
+        font-family: sans-serif;
+        width: 130px;
+        white-space: pre-wrap;
+        text-align: center;
+    }
+
+    .boton-todo {
+        display: inline-block;
+        background-color: #c6a274;
+        color: #f9f5f0;
+        font-size: 11px;
+        text-decoration: none;
+        padding-top: 5px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        white-space: pre;
+        width: 300px;
+    }
+
+    .logofooter {
+        width: 200px;
+        padding-left: 6rem;
+    }
+
+    .flextarjeta {
+        width: 300px;
+    }
+    .barra-superior{font-size: 12px;}
+    .titulo-quienessomos{padding-top: 1rem;}
+}
+
+@media (max-widht: 1023px) {
+
+    .boton {
+        background-color:
+            green;
+    }
+}
+
+@media (max-widht: 600px) {}
