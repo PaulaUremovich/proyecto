@@ -538,11 +538,12 @@ div.texto {
     }
 
 
-
+.fotos1{width: 320px;
+        height: auto
+        ; justify-content: center;}
 
     .fotos2 {
-        width: 320px;
-        height: max-content;
+        
         padding-bottom: 1rem;
     }
 
@@ -669,6 +670,8 @@ div.texto {
     }
     .barra-superior{font-size: 12px;}
     .titulo-quienessomos{padding-top: 1rem;}
+    .div1{display: none;}
+    .main4{padding-right: 1rem;}
 }
 
 @media (max-widht: 1023px) {
