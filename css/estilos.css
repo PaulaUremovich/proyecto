@@ -781,8 +781,8 @@ div.texto {
     }
 
     .fotos2 {
-        width: 320px;
-        height:320px;
+        width: 100%;
+        height: auto;
         ;
     }
     .dis-footer{width: 600px;}
